@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IEEE Scanner</string>
+    <string name="title_activity_server_name">Server Name</string>
+    <string name="scan_server">Scan Server</string>
+    <string name="scan_file">Scan File</string>
+    <string name="scanned_text">The scanned text will appear here</string>
+    <string name="enter_server">Enter server name</string>
+    <string name="ip">IP</string>
+    <string name="port">Port</string>
+    <string name="not_in_the_list">Not in the list</string>
+
+</resources>

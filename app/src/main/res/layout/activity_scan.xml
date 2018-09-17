@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/layout_background"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/anim_mutex_main"
+             android:alpha=".8">
+
+
+    <TextView android:id="@+id/view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <Button android:id="@+id/button_scan_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:text="@string/scan_server"
+            android:alpha="0"
+            android:onClick="sdk"/>
+
+    <Button android:id="@+id/button_scan_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:text="@string/scan_file"
+        android:alpha="0"/>
+
+
+</FrameLayout>
